@@ -1,0 +1,26 @@
+
+    <% for(var i=0;i<chats.length;i++) { %>
+      <% if(i%2===0) { %>
+      <div class="container">
+        <img src="logo.jpg" alt="Avatar">
+        <p><%=chats[i].msg %></p>
+        <span class="time-right">11:00</span>
+      </div>
+      <% } %>
+      <% if(i%2===1) {%>
+        <div class="container darker">
+          <img src="logo.jpg" alt="Avatar" class="right">
+          <p><%=chats[i].msg %></p>
+          <span class="time-left">11:01</span>
+        </div>
+        <% } %>
+
+<% }  %>
+<h1>welcome</h1>
+<form action="/home" method="post">
+  <input type="text" name="title" >
+  <input type="text" name="msg" >
+  <button type="submit" name="button">Submit</button>
+</form>
+  </body>
+</html>

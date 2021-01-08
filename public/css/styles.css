@@ -1,0 +1,126 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Darker chat container */
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+/* Clear floats */
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style images */
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Style the right image */
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+/* Style time text */
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+  float: left;
+  color: #999;
+}
+
+.login{
+
+	width: 400px;
+	height: 500px;
+
+  font-size: 25px;
+  font-style: italic;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  padding-top: 100px;
+	margin: auto;
+
+
+}
+.log{
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  width:50%;
+  border-radius: 5px;
+}
+.boxi{
+  height:50px;
+  background-color: #1abc9c;
+  margin-left: 200px;
+  border-radius: 10px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+.my{
+  background:    #15d798;
+border:        9px solid #556699;
+border-radius: 36px;
+padding:       20px 45px;
+color:         #ffffff;
+
+font:          normal bold 26px/1 "Open Sans", sans-serif;
+display: flex;
+top-margin: 50px;
+right : 50px;
+
+}
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
