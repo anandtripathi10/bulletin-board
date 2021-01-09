@@ -38,13 +38,31 @@
         /* Chat containers */
        div   
         li:hover,button:hover,span{
-            background-color:yellow;
+            background-color:rgb(179, 255, 0);
         }
         span{
             border-radius: 40%;
         }
         .right{
             text-align: right;
+        }
+        .compose{
+            box-sizing: border-box;
+            max-width:800px;
+            margin:auto;
+        }
+        #box{
+            border:5px solid;
+            width:500px;
+            padding:10px;
+            margin:30px;
+            
+        }
+        #send{
+            background-color: aqua;
+            border-radius:3px;
+            border-color:pink;
+            padding:10px;
         }
     </style>
 </head>
@@ -62,7 +80,7 @@
     </nav>
     <div class="container left">
         <span style="font-size:48px">&#128516;</span>
-        <span>this is test mess</span>  <br>
+        <span>How are you brother?</span>  <br>
         <span style="font-size:12px">12:00 AM Today</span>
       
       </div>
@@ -75,7 +93,10 @@
         <span style="font-size:12px">12:00 AM Today</span>
       </div>
       
-      
+      <div class="compose">
+          <input type="text" name="" id="box">
+         <input type="submit" value="send" id="send">
+      </div>
      
     <footer>
         <h1>this is footer</h1>
