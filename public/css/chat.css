@@ -40,7 +40,7 @@ span{
 }
 .compose{
     box-sizing: border-box;
-    max-width:800px;
+    max-width:700px;
     margin:auto;
 }
 #box{
@@ -55,4 +55,11 @@ span{
     border-radius:3px;
     border-color:pink;
     padding:10px;
+    width:100px;
+    margin:auto;
+    
+}
+#txt{
+    border:5px solid grey;
+    border-radius:5px;
 }
